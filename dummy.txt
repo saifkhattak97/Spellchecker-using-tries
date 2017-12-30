@@ -1,0 +1,43 @@
+Spellchecker using Tries
+Progress Report v.3.0
+Student Name: Saif ul Islam
+Dated: Saturday, 30/12/2017.
+
+Progress:
+It gives me great delight in saying that my project has been completed. I have also fixed a lot of bugs that came up during the creation of the project. 
+
+How it works?
+
+Menu Driven:
+The project is menu driven and provides you with 4 options through the menu function: 
+
+	1. Check Word Spelling
+	2. Read a File
+	3. Insert Word To Dictionary
+	4. Exit
+
+Word Check & File Check:
+It has the capability to check the spelling of a single word as well as a set of words through a file. It them analyzes each word and labels them correct or incorrect.
+
+Suggestions!
+The incorrect word is also provided with suggestions in regards to the similar spellings of the word.
+
+Auto Updation:
+If a word is incorrect, the spellchecker asks the user whether they want to add it to the dictionary. If yes, the word is automatically added to both the file and the trie and the update is made in real time.
+
+Catering to Bugs:
+The following bugs were found during the creation of the program and were catered:
+Upper Case and Lower Case differentiation
+The reading of numbers into trie and also their spellchecking
+The catering of grammatical punctuations after words.
+
+
+An Update in the Trie Node:
+Firstly my trie was unidirectional with parents accessing the child but now I have made it by directional so that the child can also access their parent. It is utilized affectively in the print function.
+
+Link to Code:
+
+Further Plan:
+Create a presentation and present the project in front of the class.
+
+
